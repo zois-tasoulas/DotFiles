@@ -1,0 +1,23 @@
+[user]
+    name = Zois Tasoulas
+    email =
+
+[color]
+    ui = auto
+
+[core]
+    editor = vim
+
+[alias]
+    br = branch
+    c = commit
+    co = checkout
+    df = diff
+    lg = log --decorate --oneline --graph --all
+    st = status
+
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
