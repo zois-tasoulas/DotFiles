@@ -6,3 +6,6 @@ set tabstop=4
 hi SpecialKey ctermfg=red guifg=red
 set list
 set listchars=trail:.,tab:>-
+
+" for Makefiles, do not expand tabs
+autocmd FileType make setlocal noexpandtab
