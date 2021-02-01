@@ -2,12 +2,6 @@
     name = Zois Tasoulas
     email =
 
-[color]
-    ui = auto
-
-[core]
-    editor = vim
-
 [alias]
     br = branch
     c = commit
@@ -16,8 +10,22 @@
     lg = log --decorate --oneline --graph --all
     st = status
 
+[color]
+    ui = auto
+
+[core]
+    editor = vim
+
 [filter "lfs"]
     clean = git-lfs clean -- %f
-    smudge = git-lfs smudge -- %f
     process = git-lfs filter-process
     required = true
+    smudge = git-lfs smudge -- %f
+
+[merge]
+    conflictstyle = diff3
+    tool = vimdiff
+
+[mergetool]
+    keepBackup = false
+    prompt = false
