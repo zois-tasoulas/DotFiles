@@ -1,5 +1,8 @@
 set expandtab
 set hlsearch
+" Indentation is 4 spaces
+set shiftwidth=4
+" Tabs are equal to 4 spaces
 set tabstop=4
 
 " Show trailing whitepace and spaces before a tab:
