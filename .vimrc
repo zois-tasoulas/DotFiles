@@ -17,4 +17,4 @@ autocmd FileType make setlocal noexpandtab
 au FileType gitcommit setlocal tw=72
 
 " Wrap tex file lines at 100 characters
-au FileType tex setlocal tw=72
+au FileType tex setlocal tw=100
