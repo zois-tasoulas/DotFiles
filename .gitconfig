@@ -8,6 +8,7 @@
     co = checkout
     df = diff
     lg = log --decorate --oneline --graph --all
+    rb = rebase
     st = status
 
 [color]
