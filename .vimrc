@@ -5,7 +5,7 @@ set shiftwidth=4
 " Tabs are equal to 4 spaces
 set tabstop=4
 
-" Show trailing whitepace and spaces before a tab:
+" Show trailing whitespace and spaces before a tab:
 hi SpecialKey ctermfg=red guifg=red
 set list
 set listchars=trail:.,tab:>-
